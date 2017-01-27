@@ -7,16 +7,17 @@ Installation & Setup
 If you've never built a test bot it is recommended that you learn the basics. Go to [Full Stack Python](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html) for a basic tutorial on how to build a basic Python Slack bot using the official Python-Slack API.
 
 * Install and activate a new [virtualenv](http://virtualenv.readthedocs.org/en/latest/) to isolate your application dependencies from other Python projects.
-	`virtualenv renato-bot`
-	`source renato-bot/bin/activate`
+..*	`virtualenv renato-bot`
+..*	`source renato-bot/bin/activate`
 
 * Install the [Official Python-Slack API](https://github.com/slackapi/python-slackclient)
-	`pip install slackclient`
+..*	`pip install slackclient`
 
 * Download and enable this bot
-	`git add -f git://github.com/gigadeleo/renato-bot.git` ## TOCHECK
+..*	`git add -f git://github.com/gigadeleo/renato-bot.git` ## TOCHECK
 
-* Install all dependencies required by renato ([virtualenv](http://virtualenv.readthedocs.org/en/latest/) 	`pip install -r requirements.txt`
+* Install all dependencies required by renato ([virtualenv](http://virtualenv.readthedocs.org/en/latest/) 	
+..* `pip install -r requirements.txt`
 
 * Obtain an [access token](https://api.slack.com/bot-users) from your Slack team so your bot can use it to connect to the Slack API. Remember to name your bot 'renato'.
 
@@ -25,7 +26,7 @@ If you've never built a test bot it is recommended that you learn the basics. Go
 * Obtain your bot_id and copy it to tokens.conf
 
 * Start
-	`python renato.py`
+..*	`python renato.py`
 
 Running as a Deamon
 -----------
