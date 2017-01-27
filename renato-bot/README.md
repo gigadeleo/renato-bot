@@ -33,6 +33,12 @@ If you plan on running renato-bot for long periods of time, you may consider usi
 daemon such as [supervisor](http://supervisord.org/) to start and stop renato-bot. A supervisor tutorial is available
 [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-manage-supervisor-on-ubuntu-and-debian-vps).
 
+Usage Examples
+----------
+Type motd in a Direct message or @renato motd to have renato share the Maltese word of the day.
+
+![MOTD - Sample](http://i.imgur.com/5v9boTj.png)
+
 License
 -----------
 renato-bot is licensed under the MIT License:
