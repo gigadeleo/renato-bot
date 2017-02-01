@@ -13,7 +13,8 @@ from slackclient import SlackClient
 # renato's ID as an environment variable
 #BOT_ID = os.environ.get("BOT_ID")
 BOT_ID = "U3SQZK54M"
-SLACK_BOT_TOKEN = os.environ.get("SLACK_BOT_TOKEN")
+SLACK_BOT_TOKEN = SLACK_TOKEN
+#SLACK_BOT_TOKEN = os.environ.get("SLACK_BOT_TOKEN")
 
 # constants
 AT_BOT = "<@" + BOT_ID + ">"
