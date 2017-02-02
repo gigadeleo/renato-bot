@@ -11,14 +11,11 @@ from commands.motd import *
 from slackclient import SlackClient
 
 # renato's ID as an environment variable
-#BOT_ID = os.environ.get("BOT_ID")
-BOT_ID = "U3SQZK54M"
-SLACK_BOT_TOKEN = SLACK_TOKEN
-#SLACK_BOT_TOKEN = os.environ.get("SLACK_BOT_TOKEN")
+BOT_ID = os.environ.get("BOT_ID")
+SLACK_BOT_TOKEN = os.environ.get("SLACK_BOT_TOKEN")
 
 # constants
 AT_BOT = "<@" + BOT_ID + ">"
-#AT_BOT = "<@U3SQZK54M>"
 
 # commands known to renato. 
 # comment out any ones you don't need.
